@@ -12,3 +12,15 @@ Here is a step-by-step guide on how to make this work with Raspberry Pi 5 and at
  6. ...
  7. ...
  8. Create a virtual environment as described here: https://medium.com/@kiena/troubleshooting-externally-managed-environment-error-in-debian-12-pip3-installation-439d62e5a970 (Fix PIP by Creating a Virtual Environment (Recomendded))
+````
+# Install the Python3 venv package if not already installed
+sudo apt install python3-venv
+
+# Create a new virtual environment
+python3 -m venv myenv
+
+# Activate the virtual environment
+source myenv/bin/activate
+````
+9. ...
+10. 
